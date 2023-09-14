@@ -4,7 +4,6 @@ function App() {
 
 	const [calc, setCalc] = useState("");
 	const [result, setResult] = useState("");
-
 	const ops = ['/', '*', '+', '-', '.'];
 
 	const updateCalc = value => {
@@ -70,7 +69,6 @@ function App() {
 					<button onClick={() => updateCalc('0')}>0</button> 
 					<button onClick={() => updateCalc('.')}>.</button>
 					<button onClick={calculate}>=</button>
-					
 				</div>
 			</div>
 		</div>
