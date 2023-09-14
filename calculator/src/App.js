@@ -54,7 +54,7 @@ function App() {
 			<div className="calculator">
 				<div className="display">
 					{result ? <span>({result})</span> : '' }&nbsp;
-					{ calc || "O0" }
+					{ calc || "0" }
 				</div>
 				<div className="operators">
 					<button onClick={() => updateCalc('/')}>/</button>
